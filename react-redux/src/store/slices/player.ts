@@ -24,9 +24,9 @@ export interface PlayerState {
 
 const initialState: PlayerState = {
   course: null,
-    currentModuleIndex: 0,
-    currentLessonIndex: 0,
-    isLoading: true
+  currentModuleIndex: 0,
+  currentLessonIndex: 0,
+  isLoading: true
 }
 
 export const loadCourse = createAsyncThunk(
